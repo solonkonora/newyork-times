@@ -131,9 +131,9 @@
   font-size: 15px;
 }
 
-#main-body,
-#section1 {
+#main-body {
   max-width: 90vw;
+  margin: 0 auto;
 }
 
 .sec-one {
@@ -178,94 +178,45 @@
 }
 
 
-  
 
 
-
-
-
-
-
-
-
-
-
-
-
-#news {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    max-width: 90vw;
-    margin: auto;
-  }
 
 
 .fifteen {
-    /* position: absolute; */
-    /* margin-left: 85px; */
-    /* justify-self: center;
-    justify-content: center;*/
-    align-items: center; 
-    /* max-width: 90vw;
-    margin: auto; */
-
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
-
-
 
 .fifteen-image {
-    display: grid;
-    /* min-height: 400vh; */
-    align-content: center;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 0px;
-    background-color: #2196F3;
-    padding: 5px;
-    margin-right: auto;
-}
-/* .fifteen-image {
-    display: grid;
-    min-height: 400vh;
-    align-content: center;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: #2196F3;
-    padding: 5px;
-} 
-
-.fifteen-images {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: left;
-    padding: 20px 0;
-    font-size: 15px;
-  } */
-  .fifteen-images {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: left;
-    padding: 20px 10px;
-    /* font-size: 15px; */
-    width: 95%;
-    justify-self: center;
-}
-
-
-
-
-/* .fifteen-image {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  gap: 1.8rem;
 }
 
 .fifteen-images {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: 1px solid gray;
-} */
-  
+  width: 95vw;
+  max-width: 320px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 400px;
+}
+
+ /* #news {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 90vw;
+    margin: auto;
+  } */
+
 .fifteen-images h4 {
   margin-left: 8px;
   font-weight: bold;
@@ -280,12 +231,6 @@
   width: 100%;
 }
 
-/* .image-text p {
-  padding-top: 10px;
-  line-height: 25px;
-  font-size: 22px;
-  float: left;
-} */
 .image-text p {
   padding-top: 10px;
   line-height: 25px;
