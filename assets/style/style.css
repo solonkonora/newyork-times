@@ -146,10 +146,6 @@
   border-bottom: 1px solid #ccc;
   width: 60%;
   margin-top: 24px;
-  /* padding-left: 55px; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 480px; */
 }
   
 .first-div img {
@@ -192,6 +188,8 @@
   margin: 15px;
   display: flex;
   flex-wrap: wrap;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .big-fives {
@@ -200,22 +198,24 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 100%;
-  gap: 1.8rem;
 }
 
 .small-image {
   display: flex;
   flex-direction: column;
-  width: 95vw;
-  max-width: 320px;
   margin: 10px auto;
-  border: 1px solid #ccc;
   padding: 10px;
-  height: 400px;
+  height: 250px;
 }
 
-.image-text {}
+.small-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.small-image .image-text h4 {
+  margin-top: 10px
+}
 
 .games {
   display: flex;
@@ -274,10 +274,9 @@
 .fifteen-images {
   display: flex;
   flex-direction: column;
-  width: 95vw;
+  width: 95vw; 
   max-width: 320px;
   margin: 10px auto;
-  border: 1px solid #ccc;
   padding: 10px;
   height: 400px;
 }
@@ -303,16 +302,15 @@
   float: left;
 }
 
-  /* footer */
-footer {
-  background-color: #f2f2f2;
+.footer {
+  background-color: #fff;
   padding: 20px;
-  /* font-size: 5px; */
+  border-top: double #808080;
 }
 
 .sub1 img {
   padding: 10px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .footer-columns {
