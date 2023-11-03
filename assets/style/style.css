@@ -250,6 +250,11 @@
   height: 300px;
 }
 
+.fourbig .image-text p,
+.fourbig .image-text h6{
+  color: #808080;
+}
+
 .athletic {
   margin: 15px;
   display: flex;
@@ -258,10 +263,6 @@
   border-top: 1px solid #000;
   width: 90vw;
 }
-
-/* h3 {
-  margin: 15px;
-} */
 
 .athletics {
   display: flex;
