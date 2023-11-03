@@ -190,26 +190,43 @@
   /* max-width: 90vw; */
 }
 
-.two-headers,
+/* .two-headers,
 .normal-image,
 .one-header,
 .three-headers {
   max-width: 22.2vw;
   border: 1px solid black;
   display: flex;
+} */
+
+.two-headers {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
+.normal-image {
+  display: flex;
+  flex-direction: column; 
+}
+
+.normal-image img {
+  width: 100%;
+  min-height:20vh ;
+}
 
 .one-header {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  border-left: 1px solid #808080;
 }
 
 .three-headers {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  border-left: 1px solid #808080;
 }
 
 .forth-div {
