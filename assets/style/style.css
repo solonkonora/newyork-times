@@ -190,8 +190,9 @@
 
 
 
-
-
+.small-image .image-text h6 {
+  color: #808080;
+}
 
 .cultures {
   width: 90vw;
