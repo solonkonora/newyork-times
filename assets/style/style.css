@@ -180,56 +180,6 @@
 
 
 
-#news {
-    border-top: double #000;
- }
- 
- .fifteen {
-   margin: 15px;
-   display: flex;
-   flex-wrap: wrap;
- }
- 
- .fifteen-image {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   margin: auto;
-   width: 100%;
-   gap: 1.8rem;
- }
- 
- .fifteen-images {
-   display: flex;
-   flex-direction: column;
-   width: 95vw; 
-   max-width: 320px;
-   margin: 10px auto;
-   padding: 10px;
-   height: 400px;
- }
- 
- .fifteen-images h4 {
-   margin-left: 8px;
-   font-weight: bold;
- }
- 
- .fifteen-images img {
-   max-width: 100%;
-   height: auto;
- }
- 
- .image-text {
-   width: 100%;
- }
- 
- .image-text p {
-   padding-top: 10px;
-   line-height: 25px;
-   font-size: 15px;
-   float: left;
- }
 
 
 
@@ -245,46 +195,43 @@
 
 .cultures {
   /* margin: 15px; */
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
+  width: 90vw;
 }
 
 .culture {
   display: flex;
-  flex-direction: rows;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 100%;
   gap: 1.8rem;
 }
 
 .culture .onebig-image {
-  max-width: 66vw;
+  max-width: 76vw;
   display: flex;
   justify-self: left;
   flex-direction: column;
   /* margin: 10px auto; */
   padding: 10px;
+  margin-right: 1px solid #808080;
   justify-self: end;
   /* height: 400px; */
 }
 
-.culture .onebig-image img {
-  justify-self: flex-start;
-  max-width: 100%;
+.onebig-image img {
+  /* justify-self: flex-start; */
+  max-width: 60vw;
   height: 500px;
 }
 
-.onebig-image .image-text p {
-  margin-right: 20px;
+.onebig-image p {
+  margin-right: 120px;
 }
 
 .onebig-image .image-text h4 {
   color: #808080;
   text-align: center;
   padding: 10px;
-  font-size: 30px
+  font-size: 20px
 }
 
 .onebig-image .image-text p {
@@ -301,23 +248,28 @@ h6 {
 
 
 
+.fourbiggg-images {
+  justify-content: right;
+  /* border: 1px solid #000; */
+  background-color: #ccc;
+ 
+}
 
 .fourbig-images {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   margin: auto;
-  width: 22.2vw;
-  justify-content: right;
+  /* width: 12.2vw; */
+  max-width: 25.4vw;
   border: 1px solid #000;
-
 }
 
 .fourbig {
   display: flex;
   flex-direction: column;
-  max-width: 11.1vw; 
+  max-width: 12.2vw; 
   /* margin: 10px auto; */
   padding: 10px;
   justify-self: end;
