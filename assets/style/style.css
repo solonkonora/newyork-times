@@ -180,6 +180,56 @@
 
 
 
+#news {
+    border-top: double #000;
+ }
+ 
+ .fifteen {
+   margin: 15px;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .fifteen-image {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   width: 100%;
+   gap: 1.8rem;
+ }
+ 
+ .fifteen-images {
+   display: flex;
+   flex-direction: column;
+   width: 95vw; 
+   max-width: 320px;
+   margin: 10px auto;
+   padding: 10px;
+   height: 400px;
+ }
+ 
+ .fifteen-images h4 {
+   margin-left: 8px;
+   font-weight: bold;
+ }
+ 
+ .fifteen-images img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .image-text {
+   width: 100%;
+ }
+ 
+ .image-text p {
+   padding-top: 10px;
+   line-height: 25px;
+   font-size: 15px;
+   float: left;
+ }
 
 
 
@@ -188,9 +238,94 @@
 
 
 
+
+
+
+
+
+.cultures {
+  /* margin: 15px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.culture {
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  gap: 1.8rem;
+}
+
+.culture .onebig-image {
+  max-width: 66vw;
+  display: flex;
+  justify-self: left;
+  flex-direction: column;
+  /* margin: 10px auto; */
+  padding: 10px;
+  justify-self: end;
+  /* height: 400px; */
+}
+
+.culture .onebig-image img {
+  justify-self: flex-start;
+  max-width: 100%;
+  height: 500px;
+}
+
+.onebig-image .image-text p {
+  margin-right: 20px;
+}
+
+.onebig-image .image-text h4 {
+  color: #808080;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px
+}
+
+.onebig-image .image-text p {
+  color: #808080;
+  text-align: center;
+  width: 40vw;
+}
+
+h6 {
+  color: #808080;
+  text-align: center;
+}
+
+
+
+
+
+.fourbig-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 22.2vw;
+  justify-content: right;
+  border: 1px solid #000;
+
+}
+
+.fourbig {
+  display: flex;
+  flex-direction: column;
+  max-width: 11.1vw; 
+  /* margin: 10px auto; */
+  padding: 10px;
+  justify-self: end;
+  /* height: 400px; */
+}
 
 .athletic {
-  /* margin: 15px; */
+  margin: 15px;
   display: flex;
   flex-direction: rows;
   flex-wrap: wrap;
@@ -198,12 +333,16 @@
   width: 90vw;
 }
 
+/* h3 {
+  margin: 15px;
+} */
+
 .athletics {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .two-headers,
@@ -255,7 +394,7 @@
 }
 
 .forth-div {
-  padding: 10px;
+  margin: 10px;
 }
 
 .big-five {
@@ -297,7 +436,7 @@
 }
 
 .three-games {
-  max-width: 100vw;
+  max-width: 90vw;
   display: flex;
   flex-direction: rows;
   margin-bottom: 25px;
