@@ -87,7 +87,7 @@
 }
 
 .logoimg img {
-    max-width: 100%;
+  max-width: 100%;
     max-height: 150px;
   }
 
@@ -147,7 +147,7 @@
   width: 60%;
   margin-top: 24px;
 }
-  
+
 .first-div img {
   display: flex;
   justify-self: right;
@@ -171,6 +171,49 @@
 .div-text h4 {
   margin-left: 8px;
   font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.athletic {
+  display: flex;
+  border: 1px solid black;
+  /* max-width: 90vw; */
+}
+
+.two-headers,
+.normal-image,
+.one-header,
+.three-headers {
+  max-width: 22.2vw;
+  border: 1px solid black;
+  display: flex;
+}
+
+
+.one-header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.three-headers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.forth-div {
+  padding: 10px;
 }
 
 
