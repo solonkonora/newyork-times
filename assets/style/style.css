@@ -184,25 +184,45 @@
 
 
 
+
+
+
+
+
 .athletic {
+  /* margin: 15px; */
   display: flex;
-  border: 1px solid black;
-  /* max-width: 90vw; */
+  flex-direction: rows;
+  flex-wrap: wrap;
+  border-top: 1px solid #000;
+  width: 90vw;
 }
 
-/* .two-headers,
+.athletics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.two-headers,
 .normal-image,
 .one-header,
 .three-headers {
   max-width: 22.2vw;
-  border: 1px solid black;
   display: flex;
-} */
+}
 
 .two-headers {
   display: flex;
   flex-direction: column;
   padding: 10px;
+}
+
+.two-headers .two p,
+.one-header p {
+  color: rgb(187, 185, 185);
 }
 
 .normal-image {
@@ -211,15 +231,20 @@
 }
 
 .normal-image img {
-  width: 100%;
-  min-height:20vh ;
+  width: 98%;
+  min-height: 20vh;
+  padding: 10px;
+  border-right: 1px solid #808080;
+}
+
+.normal-image p {
+  margin-right: 20px;
 }
 
 .one-header {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border-left: 1px solid #808080;
 }
 
 .three-headers {
@@ -232,17 +257,6 @@
 .forth-div {
   padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .big-five {
   margin: 15px;
