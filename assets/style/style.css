@@ -139,37 +139,93 @@
 }
 
 .first-div {
-  display: flex;
-  flex-direction: row-reverse;
   border-bottom: 1px solid #ccc;
-  width: 60%;
   margin-top: 24px;
 }
 
-.first-div img {
-  display: flex;
-  justify-self: right;
-  width: 97vw;
-  height: 270px;
-  border-radius: 5px;
-  padding: 5px;
-}
-
 .div-texts {
-  display: flex;
-  flex-direction: column;
-  row-gap: 20px;
 }
 
 .div-text {
-  background-color: lightgray;
-  padding: 3px;
+ padding: 10px;
 }
 
 .div-text h4 {
-  margin-left: 8px;
-  font-weight: bold;
+  font-size: 20px;
+  padding: 10px auto;
 }
+
+.div-text p {
+  color: #716c6c;
+}
+
+.div-text h6 {
+  color: #716c6c;
+  float: left;
+}
+
+.figure img {
+  width: 35vw;
+  height: 270px;
+  border-radius: 5px;
+}
+
+.four-divs {
+}
+
+.four-divs .audio-container {
+  max-width: 26vw;
+  border: 1px solid #808080;
+}
+
+.four-divs .audio-container h4 {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.four-divs .one {
+  border: 1px solid #808080;
+  max-width: 26vw;
+}
+
+.four-divs .one h4 {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.four-divs .one h6 {
+  font-size: 10px;
+  color: #716c6c;
+  padding: 0 10px;
+}
+
+.four-divs .two {
+  border: 1px solid #808080;
+}
+
+.four-divs .two .sub-two {
+  border: 1px solid #808080;
+}
+
+.two .sub-two img {
+
+}
+
+.two .sub-two .div-text {}
+
+.two .sub-two .div-text h4 {}
+
+.two .sub-two .div-text h6 {}
+
+
+
+
+
+
+
+
+
+
 
 .big-normal-texts {
   display: flex;
