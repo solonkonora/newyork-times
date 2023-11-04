@@ -26,9 +26,9 @@
 }
 
 .navbar li {
-    text-decoration: none;
-    padding: 5px;
-    font-size: 13px;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 13px;
 }
 
 .navbar2 li {
@@ -53,10 +53,10 @@
 }
 
 .navbar3 ul {
- display: flex;
- justify-content: center;
- align-items: center;
- list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
 
 .navbar .box2 ul {
@@ -75,6 +75,10 @@
   color: #000;
   font-size: 15px;
 }
+.navbar2 a {
+  text-decoration: none;
+  color: #050505;
+}
 
 .navbar .box2 ul a {
   text-decoration: none;
@@ -92,11 +96,6 @@
   align-self: center;
 }
 
-.navbar2 a {
-    text-decoration: none;
-    color: #050505;
-}
- 
 .navbar .box3 li a {
   text-decoration: none;
   color: #fff;
@@ -174,14 +173,13 @@
 
 .big-normal-texts {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   border-top: 1px solid black;
 }
 
 .big-normal-text {
   display: flex;
   flex-direction: row;
-  flex-flow: wrap;
   width: 90vw;
 }
 
@@ -271,6 +269,11 @@
   height: 500px;
 }
 
+.fifteen-images h4 {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
 .onebig-image .image-text h4 {
   color: #808080;
   text-align: center;
@@ -301,10 +304,21 @@
 .fourbig {
   display: flex;
   flex-direction: column;
-  max-width: 12.2vw; 
+  max-width: 12.2vw;
   margin: 10px auto;
   padding: 10px;
   height: 300px;
+}
+
+.normal-image p {
+  margin-right: 20px;
+}
+
+.image-text p {
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 15px;
+  float: left;
 }
 
 .fourbig .image-text p {
@@ -315,7 +329,7 @@
   margin: 15px;
   display: flex;
   flex-direction: rows;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   border-top: 1px solid #000;
   width: 90vw;
 }
@@ -342,25 +356,17 @@
   padding: 10px;
 }
 
-.normal-image p {
-  margin-right: 20px;
-}
-
-.image-text p {
-  padding-top: 10px;
-  line-height: 25px;
-  font-size: 15px;
-  float: left;
-}
-
-.two-headers .two p,
 .one-header p {
-  color: rgb(187, 185, 185);
+    color: #bbb9b9;
+
+}
+.two-headers .two p {
+  color: #bbb9b9;
 }
 
 .normal-image {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .normal-image img {
@@ -379,7 +385,6 @@
 .three-headers {
   display: flex;
   flex-direction: column;
-  flex-flow: wrap;
   border-left: 1px solid #808080;
 }
 
@@ -414,11 +419,6 @@
 .small-image img {
   max-width: 100%;
   height: auto;
-}
-
-.fifteen-images h4 {
-  margin-left: 8px;
-  font-weight: bold;
 }
 
 .small-image .image-text h4 {
@@ -482,7 +482,7 @@
 .fifteen-images {
   display: flex;
   flex-direction: column;
-  width: 95vw; 
+  width: 95vw;
   max-width: 320px;
   margin: 10px auto;
   padding: 10px;
