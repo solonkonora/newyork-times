@@ -156,7 +156,7 @@
 
 .div-text h4 {
   font-size: 20px;
-  padding: 10px auto;
+  padding: 15px auto;
 }
 
 .div-text p {
@@ -165,13 +165,12 @@
 
 .div-text h6 {
   color: #716c6c;
-  float: left;
+  padding-bottom: 20px;
 }
 
 .figure img {
-  width: 35vw;
-  height: 270px;
-  border-radius: 5px;
+  width: 40vw;
+  height: 300px;
 }
 
 .four-divs {
@@ -237,6 +236,43 @@
 .two .sub-two .div-text h6 {
   font-size: 13px;
 }
+
+.one-div {
+  border-bottom: 1px solid #ccc;
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text {
+  padding: 10px;
+}
+   
+.text h4 {
+  font-size: 20px;
+  padding: 15px auto;
+}
+   
+.text p {
+  color: #716c6c;
+}
+   
+.text h6 {
+  color: #716c6c;
+  padding-bottom: 20px;
+}
+   
+.one-div .figure img {
+  width: 30vw;
+  height: 300px;
+}
+
+.first-div p {
+  padding: 10px 0;
+}
+
+
+
 
 
 
