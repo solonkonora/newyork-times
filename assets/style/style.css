@@ -135,14 +135,16 @@
 }
 
 .sec-one {
-  max-width: 90vw;
+  /* max-width: 90vw; */
+  max-width: 60vw;
+  margin-right: 1px solid #808080;
 }
 
 .first-div {
   border-bottom: 1px solid #ccc;
   margin-top: 24px;
-  max-width: 60vw;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .div-texts {
