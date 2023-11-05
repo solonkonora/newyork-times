@@ -134,9 +134,23 @@
   margin: 0 auto;
 }
 
+#section1 {
+  display: grid;
+  grid-template-rows: 1fr; /* Adjust the number of rows as needed */
+  grid-gap: 10px; /* Optional: Add gap between grid items */
+}
+
 .sec-one {
   max-width: 60vw;
-  margin-right: 1px solid #808080;
+  padding:0 20px 0 0;
+  border-right: 1px solid #808080;
+  grid-row: 1; /* Place sec-one in the first row */
+}
+
+.sec-two {
+  max-width: 28vw;
+  padding:0 0 0 20px;
+  grid-row: 2; /* Place sec-one in the first row */
 }
 
 .first-div {
@@ -145,9 +159,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
-/* .div-texts {
-} */
 
 .div-text {
  padding: 0 10px 0 0;
@@ -168,8 +179,9 @@
 }
 
 .figure img {
-  width: 40vw;
+  width: 35vw;
   height: 300px;
+  margin: 0 0 5px 10px;
 }
 
 .figure p {
@@ -257,9 +269,9 @@ padding-bottom: 15px;
 }
 
 figure img {
-  width: 40vw;
+  width: 35vw;
   height: 300px;
-  margin-bottom: 5px;
+  margin: 0 0 5px 10px;
 }
 
 .two {
@@ -280,6 +292,10 @@ figure img {
   border-bottom: 1px solid #000;
 }
 
+/* .sec-one {
+  max-width: 30vw;
+  padding:0 0 0 20px;
+} */
 
 
 
