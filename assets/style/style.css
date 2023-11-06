@@ -43,11 +43,16 @@
 .footer-column li {
   margin-bottom: 15px;
 }
-  
+ 
 .navbar3 ul li {
   list-style-type: none;
   margin: auto;
   padding: 6px;
+}
+
+.social-media li {
+  margin-right: 10px;
+  font-size: 12px;
 }
 
 .navbar .box1 li {
@@ -79,14 +84,15 @@
   text-decoration: none;
 }
 
+.navbar2 a {
+  text-decoration: none;
+  color: #050505;
+}
+
 .navbar3 ul li a {
   text-decoration: none;
   color: #000;
   font-size: 15px;
-}
-.navbar2 a {
-  text-decoration: none;
-  color: #050505;
 }
 
 .navbar .box2 ul a {
@@ -98,11 +104,6 @@
   display: flex;
   justify-self: right;
   justify-content: center;
-}
-
-.social-media li {
-  margin-right: 10px;
-  font-size: 12px;
 }
 
 .navbar .box3 li {
@@ -156,9 +157,9 @@
 
 .sec-one {
   max-width: 60vw;
-  padding:0 20px 0 0;
+  padding: 0 20px 0 0;
   border-right: 1px solid #808080;
-  grid-row: 1; 
+  grid-row: 1;
 }
 
 .sec-two {
@@ -197,7 +198,7 @@
 }
 
 .figure p {
-padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .four-divs .first-one {
@@ -207,6 +208,11 @@ padding-bottom: 15px;
 
 .first-one .audio-container {
   border: 1px solid #808080;
+}
+
+.text h4 {
+  font-size: 20px;
+  padding: 15px auto;
 }
 
 .first-one .audio-container h4 {
@@ -242,9 +248,9 @@ padding-bottom: 15px;
 }
 
 .two .sub-two img {
- margin: 10px;
- width: 80px;
- height: 80px;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
 }
 
 .two .sub-two .div-text h4 {
@@ -264,11 +270,6 @@ padding-bottom: 15px;
 
 .text {
   padding: 0 10px 0 0;
-}
-
-.text h4 {
-  font-size: 20px;
-  padding: 15px auto;
 }
 
 .text p {
@@ -642,7 +643,6 @@ height: 200px;
 .athletic {
   margin: 15px;
   display: flex;
-  flex-direction: rows;
   flex-flow: wrap;
   border-top: 1px solid #000;
   width: 90vw;
@@ -674,6 +674,7 @@ height: 200px;
   color: #bbb9b9;
 
 }
+
 .two-headers .two p {
   color: #bbb9b9;
 }
