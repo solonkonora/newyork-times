@@ -197,12 +197,6 @@ figure img {
   padding-bottom: 20px;
 }
 
-figure img {
-  width: 35vw;
-  height: 300px;
-  margin: 0 0 5px 10px;
-}
-
 .figure img {
   width: 35vw;
   height: 300px;
@@ -268,12 +262,6 @@ figure img {
   grid-gap: 1px;
 }
 
-figure img {
-  width: 35vw;
-  height: 300px;
-  margin: 0 0 5px 10px;
-}
-
 .two .sub-two img {
   margin: 10px;
   width: 80px;
@@ -282,11 +270,6 @@ figure img {
 
 .two .sub-two .div-text h4 {
   font-size: 15px;
-}
-
-.text h6 {
-  color: #716c6c;
-  padding-bottom: 20px;
 }
 
 .two .sub-two .div-text h6 {
@@ -447,7 +430,7 @@ figure img {
 }
 
 .books-div {
-  border: 1px solid #808080
+  border: 1px solid #808080;
 }
 
 .books-div .books img {
@@ -610,7 +593,7 @@ figure img {
   color: #808080;
   text-align: center;
   padding: 10px;
-  font-size: 35px
+  font-size: 35px;
 }
 
 .onebig-image .image-text p {
@@ -689,7 +672,6 @@ figure img {
 
 .one-header p {
   color: #bbb9b9;
-
 }
 
 .two-headers .two p {
@@ -859,11 +841,6 @@ figure img {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.footer-column a {
-  color: #333;
-  text-decoration: none;
 }
 
 .footer-column a:hover {
