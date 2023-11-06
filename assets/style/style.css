@@ -40,6 +40,10 @@
   margin: 0 20px;
 }
 
+.footer-column li {
+  margin-bottom: 15px;
+}
+  
 .navbar3 ul li {
   list-style-type: none;
   margin: auto;
@@ -68,6 +72,11 @@
 .box2 {
   justify-content: center;
   margin-top: 10px;
+}
+
+.footer-column a {
+  color: #333;
+  text-decoration: none;
 }
 
 .navbar3 ul li a {
@@ -832,10 +841,6 @@ height: 200px;
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.footer-column li {
-  margin-bottom: 15px;
 }
 
 .footer-column a {
