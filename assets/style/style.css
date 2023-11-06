@@ -330,26 +330,26 @@ figure img {
   display: grid;
 }
 
-.sec-two .second-div .figures img{
+.sec-two .second-div .figures img {
   width: 95%;
   height: 200px;
 }
 
-.sec-two .second-div img{
+.sec-two .second-div img {
   width: 100px;
   height: 100px;
 }
 
-.sec-two .second-div p{
+.sec-two .second-div p {
   margin: auto;
 }
 
-.second-div .div-text h4{
+.second-div .div-text h4 {
   padding-top: 10px;
   color: #000;
 }
 
-.second-div .div-text h6{
+.second-div .div-text h6 {
   padding-top: 10px;
 }
 
@@ -423,8 +423,8 @@ figure img {
 }
 
 .secondo figure img {
-width: 100%;
-height: 200px;
+  width: 100%;
+  height: 200px;
 }
 
 .div-four .picture img {
@@ -449,7 +449,7 @@ height: 200px;
 }
 
 .books-div {
-  border:1px solid #808080
+  border: 1px solid #808080
 }
 
 .books-div .books img {
@@ -465,7 +465,7 @@ height: 200px;
   margin-left: 20px;
 }
 
-.books-div .div-text{
+.books-div .div-text {
   margin-left: 20px;
 }
 
