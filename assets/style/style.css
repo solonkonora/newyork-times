@@ -397,7 +397,24 @@ height: 200px;
 .div-four .picture img {
   width: 70px;
   height: 70px;
+  margin-top: 20px;
 }
+
+.lasttwo-divs {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 10px;
+}
+
+.lasttwo-divs .second-div {
+  width: 150px;
+  height: auto;
+}
+
+.lasttwo-divs .second-div .div-text p {
+  color: #000;
+}
+
 
 
 
@@ -422,6 +439,12 @@ height: 200px;
 
 .last-four .second-div .div-text {
   padding: 0 10px 0 0;
+}
+
+.last-four .second-div .sun img {
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
 }
 
 .last-four .second-div .div-text h4 {
