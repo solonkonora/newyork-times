@@ -295,13 +295,6 @@ figure img {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.four-divs .two .sub-two {
-  display: grid;
-  border: 1px solid #808080;
-  grid-template-columns: auto auto;
-  grid-gap: 1px;
-}
-
 .sub1 img {
   padding: 10px;
 }
@@ -334,6 +327,11 @@ figure img {
   height: 500px;
 }
 
+.secondo figure img {
+  width: 100%;
+  height: 200px;
+}
+
 .two .sub-two img {
   margin: 10px;
   width: 80px;
@@ -347,8 +345,24 @@ figure img {
   font-size: 35px;
 }
 
+.small-image .image-text h4 {
+  margin-top: 10px;
+}
+
 .two .sub-two .div-text h4 {
   font-size: 15px;
+}
+
+.fourbig .image-text h6 {
+  color: #808080;
+}
+
+.small-image .image-text h6 {
+  color: #808080;
+}
+
+.normal-text .one h6 {
+  color: #5b5a5a;
 }
 
 .two .sub-two .div-text h6 {
@@ -390,6 +404,14 @@ figure img {
   display: grid;
 }
 
+.books-div .books img {
+  width: 95%;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+  margin-left: 10px;
+}
+
 .sec-two .second-div .figures img {
   width: 95%;
   height: 200px;
@@ -399,7 +421,7 @@ figure img {
   color: #bbb9b9;
 }
 
-.sec-two .second-div img {
+.sec-two . img {
   width: 100px;
   height: 100px;
 }
@@ -510,11 +532,6 @@ figure img {
   color: #000;
 }
 
-.secondo figure img {
-  width: 100%;
-  height: 200px;
-}
-
 .div-four .picture img {
   width: 70px;
   height: 70px;
@@ -532,20 +549,22 @@ figure img {
   height: auto;
 }
 
+.two-headers .two p {
+  color: #bbb9b9;
+}
+
+.onebig-image .image-text p {
+  color: #808080;
+  text-align: center;
+  font-size: 25px;
+}
+
 .lasttwo-divs .second-div .div-text p {
   color: #000;
 }
 
 .books-div {
   border: 1px solid #808080;
-}
-
-.books-div .books img {
-  width: 95%;
-  justify-content: center;
-  justify-self: center;
-  align-self: center;
-  margin-left: 10px;
 }
 
 .books-div h5 {
@@ -634,14 +653,6 @@ figure img {
   row-gap: 16px;
 }
 
-.normal-text .one h6 {
-  color: #5b5a5a;
-}
-
-.small-image .image-text h6 {
-  color: #808080;
-}
-
 .cultures {
   width: 90vw;
 }
@@ -659,16 +670,6 @@ figure img {
   margin: 10px auto;
   padding: 10px;
   border-right: 1px solid #ccc;
-}
-
-.onebig-image .image-text p {
-  color: #808080;
-  text-align: center;
-  font-size: 25px;
-}
-
-.fourbig .image-text h6 {
-  color: #808080;
 }
 
 .culture .onebig-image .image-text h6 {
@@ -724,10 +725,6 @@ figure img {
   padding: 10px;
 }
 
-.two-headers .two p {
-  color: #bbb9b9;
-}
-
 .normal-image {
   display: flex;
   flex-direction: column;
@@ -771,10 +768,6 @@ figure img {
   margin: 10px auto;
   padding: 10px;
   height: 250px;
-}
-
-.small-image .image-text h4 {
-  margin-top: 10px;
 }
 
 .games {
