@@ -332,6 +332,18 @@ figure img {
   height: 200px;
 }
 
+.division1 figure img {
+  margin: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.division1 figure img {
+  margin: 0;
+  width: 150px;
+  height: 150px;
+}
+
 .two .sub-two img {
   margin: 10px;
   width: 80px;
@@ -349,6 +361,11 @@ figure img {
   margin-top: 10px;
 }
 
+.second-div .div-text h4 {
+  padding-top: 10px;
+  color: #000;
+}
+
 .two .sub-two .div-text h4 {
   font-size: 15px;
 }
@@ -363,6 +380,20 @@ figure img {
 
 .normal-text .one h6 {
   color: #5b5a5a;
+}
+
+.second-div .div-text h6 {
+  padding-top: 10px;
+}
+
+.div-four .twice h6 {
+  font-size: 10px;
+  padding: 10px 0;
+  color: #808080;
+}
+
+.secondo .div-text h6 {
+  font-size: 10px;
 }
 
 .two .sub-two .div-text h6 {
@@ -412,6 +443,12 @@ figure img {
   margin-left: 10px;
 }
 
+.div-four .picture img {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+
 .sec-two .second-div .figures img {
   width: 95%;
   height: 200px;
@@ -421,7 +458,7 @@ figure img {
   color: #bbb9b9;
 }
 
-.sec-two . img {
+.sec-two .second-div img {
   width: 100px;
   height: 100px;
 }
@@ -454,15 +491,6 @@ figure img {
   margin: auto;
 }
 
-.second-div .div-text h4 {
-  padding-top: 10px;
-  color: #000;
-}
-
-.second-div .div-text h6 {
-  padding-top: 10px;
-}
-
 .div-three {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -481,12 +509,6 @@ figure img {
   margin: 0;
 }
 
-.division1 figure img {
-  margin: 0;
-  width: 150px;
-  height: 150px;
-}
-
 .division1 .div-text p {
   font-weight: bold;
   color: #000;
@@ -499,15 +521,13 @@ figure img {
   border-bottom: 1px solid #808080;
 }
 
+.books-div h5 {
+  margin-left: 20px;
+}
+
 .div-four .twice h5 {
   font-size: 15px;
   padding: 10px 0;
-}
-
-.div-four .twice h6 {
-  font-size: 10px;
-  padding: 10px 0;
-  color: #808080;
 }
 
 .div-four .div-text p {
@@ -522,20 +542,10 @@ figure img {
   display: grid;
 }
 
-.secondo .div-text h6 {
-  font-size: 10px;
-}
-
 .secondo .div-text p {
   font-weight: bold;
   margin: 0;
   color: #000;
-}
-
-.div-four .picture img {
-  width: 70px;
-  height: 70px;
-  margin-top: 20px;
 }
 
 .lasttwo-divs {
@@ -567,10 +577,6 @@ figure img {
   border: 1px solid #808080;
 }
 
-.books-div h5 {
-  margin-left: 20px;
-}
-
 .books-div .div-text {
   margin-left: 20px;
 }
@@ -600,6 +606,10 @@ figure img {
 .last-four .second-div .div-text h4 {
   font-size: 20px;
   padding: 15px auto;
+}
+
+.fourbig .image-text p {
+  color: #808080;
 }
 
 .last-four .second-div .div-text p {
@@ -689,10 +699,6 @@ figure img {
   margin: 10px auto;
   padding: 10px;
   height: 300px;
-}
-
-.fourbig .image-text p {
-  color: #808080;
 }
 
 .athletic {
